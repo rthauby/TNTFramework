@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A174256120C92D1007BD6EA /* TNTHttpImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174252120C92D1007BD6EA /* TNTHttpImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174257120C92D1007BD6EA /* TNTHttpImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174253120C92D1007BD6EA /* TNTHttpImage.m */; };
+		2A174268120C92DE007BD6EA /* TNTGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A17425A120C92DE007BD6EA /* TNTGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174269120C92DE007BD6EA /* TNTGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A17425B120C92DE007BD6EA /* TNTGridView.m */; };
+		2A17426C120C92DE007BD6EA /* TNTNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A17425E120C92DE007BD6EA /* TNTNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A17426D120C92DE007BD6EA /* TNTNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A17425F120C92DE007BD6EA /* TNTNavBar.m */; };
+		2A17426E120C92DE007BD6EA /* TNTPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174260120C92DE007BD6EA /* TNTPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A17426F120C92DE007BD6EA /* TNTPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174261120C92DE007BD6EA /* TNTPageController.m */; };
+		2A174270120C92DE007BD6EA /* TNTSplitVBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174262120C92DE007BD6EA /* TNTSplitVBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174271120C92DE007BD6EA /* TNTSplitVBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174263120C92DE007BD6EA /* TNTSplitVBox.m */; };
+		2A174272120C92DE007BD6EA /* TNTToolTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174264120C92DE007BD6EA /* TNTToolTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174273120C92DE007BD6EA /* TNTToolTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174265120C92DE007BD6EA /* TNTToolTip.m */; };
+		2A174274120C92DE007BD6EA /* TNTVBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174266120C92DE007BD6EA /* TNTVBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174275120C92DE007BD6EA /* TNTVBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174267120C92DE007BD6EA /* TNTVBox.m */; };
+		2A174278120C92E8007BD6EA /* TNTFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A174276120C92E8007BD6EA /* TNTFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A174279120C92E8007BD6EA /* TNTFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A174277120C92E8007BD6EA /* TNTFramework.m */; };
+		2A391ED712493CD50001BABF /* TNTIndexedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A391ED512493CD50001BABF /* TNTIndexedImageView.h */; };
+		2A391ED812493CD50001BABF /* TNTIndexedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A391ED612493CD50001BABF /* TNTIndexedImageView.m */; };
+		2A4DD9111222003B00EA665D /* TNTShadowedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4DD90D1222003B00EA665D /* TNTShadowedImageView.h */; };
+		2A4DD9121222003B00EA665D /* TNTShadowedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DD90E1222003B00EA665D /* TNTShadowedImageView.m */; };
+		2A4DD9131222003B00EA665D /* TNTStyledView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4DD90F1222003B00EA665D /* TNTStyledView.h */; };
+		2A4DD9141222003B00EA665D /* TNTStyledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DD9101222003B00EA665D /* TNTStyledView.m */; };
+		2A6DF051121F2C51008774A8 /* TNTSearchField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6DF04F121F2C51008774A8 /* TNTSearchField.h */; };
+		2A6DF052121F2C51008774A8 /* TNTSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DF050121F2C51008774A8 /* TNTSearchField.m */; };
+		2AB600FB1222DEC40083BFDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB600FA1222DEC40083BFDD /* QuartzCore.framework */; };
+		2AB7A50A1220A8430071F0F1 /* TNTSplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB7A5081220A8430071F0F1 /* TNTSplashScreen.h */; };
+		2AB7A50B1220A8430071F0F1 /* TNTSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7A5091220A8430071F0F1 /* TNTSplashScreen.m */; };
+		2ADD0BAE1248143C00273E58 /* TNTThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADD0BAC1248143C00273E58 /* TNTThumbnailView.h */; };
+		2ADD0BAF1248143C00273E58 /* TNTThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD0BAD1248143C00273E58 /* TNTThumbnailView.m */; };
+		2AFF77DC121DC9EE00E05077 /* TNTSmartImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFF77DA121DC9EE00E05077 /* TNTSmartImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFF77DD121DC9EE00E05077 /* TNTSmartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF77DB121DC9EE00E05077 /* TNTSmartImageView.m */; };
+		AA747D9F0F9514B9006C5449 /* TNTFramework_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TNTFramework_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A17419A120C8967007BD6EA /* slider_track_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slider_track_0.png; path = Assets/Images/slider_track_0.png; sourceTree = "<group>"; };
+		2A17419B120C8967007BD6EA /* slider_track_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slider_track_1.png; path = Assets/Images/slider_track_1.png; sourceTree = "<group>"; };
+		2A17419C120C8967007BD6EA /* track_slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = track_slider.png; path = Assets/Images/track_slider.png; sourceTree = "<group>"; };
+		2A174252120C92D1007BD6EA /* TNTHttpImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTHttpImage.h; path = Classes/TNTHttpImage.h; sourceTree = "<group>"; };
+		2A174253120C92D1007BD6EA /* TNTHttpImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTHttpImage.m; path = Classes/TNTHttpImage.m; sourceTree = "<group>"; };
+		2A17425A120C92DE007BD6EA /* TNTGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTGridView.h; path = Classes/TNTGridView.h; sourceTree = "<group>"; };
+		2A17425B120C92DE007BD6EA /* TNTGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTGridView.m; path = Classes/TNTGridView.m; sourceTree = "<group>"; };
+		2A17425E120C92DE007BD6EA /* TNTNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTNavBar.h; path = Classes/TNTNavBar.h; sourceTree = "<group>"; };
+		2A17425F120C92DE007BD6EA /* TNTNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTNavBar.m; path = Classes/TNTNavBar.m; sourceTree = "<group>"; };
+		2A174260120C92DE007BD6EA /* TNTPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTPageController.h; path = Classes/TNTPageController.h; sourceTree = "<group>"; };
+		2A174261120C92DE007BD6EA /* TNTPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTPageController.m; path = Classes/TNTPageController.m; sourceTree = "<group>"; };
+		2A174262120C92DE007BD6EA /* TNTSplitVBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTSplitVBox.h; path = Classes/TNTSplitVBox.h; sourceTree = "<group>"; };
+		2A174263120C92DE007BD6EA /* TNTSplitVBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTSplitVBox.m; path = Classes/TNTSplitVBox.m; sourceTree = "<group>"; };
+		2A174264120C92DE007BD6EA /* TNTToolTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTToolTip.h; path = Classes/TNTToolTip.h; sourceTree = "<group>"; };
+		2A174265120C92DE007BD6EA /* TNTToolTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTToolTip.m; path = Classes/TNTToolTip.m; sourceTree = "<group>"; };
+		2A174266120C92DE007BD6EA /* TNTVBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTVBox.h; path = Classes/TNTVBox.h; sourceTree = "<group>"; };
+		2A174267120C92DE007BD6EA /* TNTVBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTVBox.m; path = Classes/TNTVBox.m; sourceTree = "<group>"; };
+		2A174276120C92E8007BD6EA /* TNTFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTFramework.h; path = Classes/TNTFramework.h; sourceTree = "<group>"; };
+		2A174277120C92E8007BD6EA /* TNTFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTFramework.m; path = Classes/TNTFramework.m; sourceTree = "<group>"; };
+		2A1742A6120C9473007BD6EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A1742A9120C948C007BD6EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A391ED512493CD50001BABF /* TNTIndexedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTIndexedImageView.h; path = Classes/TNTIndexedImageView.h; sourceTree = "<group>"; };
+		2A391ED612493CD50001BABF /* TNTIndexedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTIndexedImageView.m; path = Classes/TNTIndexedImageView.m; sourceTree = "<group>"; };
+		2A4DD90D1222003B00EA665D /* TNTShadowedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTShadowedImageView.h; path = Classes/TNTShadowedImageView.h; sourceTree = "<group>"; };
+		2A4DD90E1222003B00EA665D /* TNTShadowedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTShadowedImageView.m; path = Classes/TNTShadowedImageView.m; sourceTree = "<group>"; };
+		2A4DD90F1222003B00EA665D /* TNTStyledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTStyledView.h; path = Classes/TNTStyledView.h; sourceTree = "<group>"; };
+		2A4DD9101222003B00EA665D /* TNTStyledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTStyledView.m; path = Classes/TNTStyledView.m; sourceTree = "<group>"; };
+		2A6DF04F121F2C51008774A8 /* TNTSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTSearchField.h; path = Classes/TNTSearchField.h; sourceTree = "<group>"; };
+		2A6DF050121F2C51008774A8 /* TNTSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTSearchField.m; path = Classes/TNTSearchField.m; sourceTree = "<group>"; };
+		2AB600FA1222DEC40083BFDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AB7A5081220A8430071F0F1 /* TNTSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTSplashScreen.h; path = Classes/TNTSplashScreen.h; sourceTree = "<group>"; };
+		2AB7A5091220A8430071F0F1 /* TNTSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTSplashScreen.m; path = Classes/TNTSplashScreen.m; sourceTree = "<group>"; };
+		2ADD0BAC1248143C00273E58 /* TNTThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTThumbnailView.h; path = Classes/TNTThumbnailView.h; sourceTree = "<group>"; };
+		2ADD0BAD1248143C00273E58 /* TNTThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTThumbnailView.m; path = Classes/TNTThumbnailView.m; sourceTree = "<group>"; };
+		2AFF77DA121DC9EE00E05077 /* TNTSmartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNTSmartImageView.h; path = Classes/TNTSmartImageView.h; sourceTree = "<group>"; };
+		2AFF77DB121DC9EE00E05077 /* TNTSmartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNTSmartImageView.m; path = Classes/TNTSmartImageView.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TNTFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNTFramework_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTNTFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTNTFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				2AB600FB1222DEC40083BFDD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTNTFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TNTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TNTFramework;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A1742A6120C9473007BD6EA /* UIKit.framework */,
+				2A1742A9120C948C007BD6EA /* CoreGraphics.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				2AB600FA1222DEC40083BFDD /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A0127F312114108009D8B3C /* Custom Classes */,
+				2A174206120C8D3E007BD6EA /* Helpers */,
+				2A17418C120C6DAD007BD6EA /* Assets */,
+				2A174179120C66FB007BD6EA /* Components */,
+				2A174276120C92E8007BD6EA /* TNTFramework.h */,
+				2A174277120C92E8007BD6EA /* TNTFramework.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A0127F312114108009D8B3C /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A391ED512493CD50001BABF /* TNTIndexedImageView.h */,
+				2A391ED612493CD50001BABF /* TNTIndexedImageView.m */,
+				2AFF77DA121DC9EE00E05077 /* TNTSmartImageView.h */,
+				2AFF77DB121DC9EE00E05077 /* TNTSmartImageView.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		2A174179120C66FB007BD6EA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2ADD0BAC1248143C00273E58 /* TNTThumbnailView.h */,
+				2ADD0BAD1248143C00273E58 /* TNTThumbnailView.m */,
+				2A4DD90D1222003B00EA665D /* TNTShadowedImageView.h */,
+				2A4DD90E1222003B00EA665D /* TNTShadowedImageView.m */,
+				2A4DD90F1222003B00EA665D /* TNTStyledView.h */,
+				2A4DD9101222003B00EA665D /* TNTStyledView.m */,
+				2AB7A5081220A8430071F0F1 /* TNTSplashScreen.h */,
+				2AB7A5091220A8430071F0F1 /* TNTSplashScreen.m */,
+				2A6DF04F121F2C51008774A8 /* TNTSearchField.h */,
+				2A6DF050121F2C51008774A8 /* TNTSearchField.m */,
+				2A17425A120C92DE007BD6EA /* TNTGridView.h */,
+				2A17425B120C92DE007BD6EA /* TNTGridView.m */,
+				2A17425E120C92DE007BD6EA /* TNTNavBar.h */,
+				2A17425F120C92DE007BD6EA /* TNTNavBar.m */,
+				2A174260120C92DE007BD6EA /* TNTPageController.h */,
+				2A174261120C92DE007BD6EA /* TNTPageController.m */,
+				2A174262120C92DE007BD6EA /* TNTSplitVBox.h */,
+				2A174263120C92DE007BD6EA /* TNTSplitVBox.m */,
+				2A174264120C92DE007BD6EA /* TNTToolTip.h */,
+				2A174265120C92DE007BD6EA /* TNTToolTip.m */,
+				2A174266120C92DE007BD6EA /* TNTVBox.h */,
+				2A174267120C92DE007BD6EA /* TNTVBox.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		2A17418C120C6DAD007BD6EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2A17419D120C896A007BD6EA /* Images */,
+				2A17419E120C8970007BD6EA /* NIBs */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2A17419D120C896A007BD6EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A17419A120C8967007BD6EA /* slider_track_0.png */,
+				2A17419B120C8967007BD6EA /* slider_track_1.png */,
+				2A17419C120C8967007BD6EA /* track_slider.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2A17419E120C8970007BD6EA /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		2A174206120C8D3E007BD6EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A174252120C92D1007BD6EA /* TNTHttpImage.h */,
+				2A174253120C92D1007BD6EA /* TNTHttpImage.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TNTFramework_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TNTFramework_Prefix.pch in Headers */,
+				2A174256120C92D1007BD6EA /* TNTHttpImage.h in Headers */,
+				2A174268120C92DE007BD6EA /* TNTGridView.h in Headers */,
+				2A17426C120C92DE007BD6EA /* TNTNavBar.h in Headers */,
+				2A17426E120C92DE007BD6EA /* TNTPageController.h in Headers */,
+				2A174270120C92DE007BD6EA /* TNTSplitVBox.h in Headers */,
+				2A174272120C92DE007BD6EA /* TNTToolTip.h in Headers */,
+				2A174274120C92DE007BD6EA /* TNTVBox.h in Headers */,
+				2A174278120C92E8007BD6EA /* TNTFramework.h in Headers */,
+				2AFF77DC121DC9EE00E05077 /* TNTSmartImageView.h in Headers */,
+				2A6DF051121F2C51008774A8 /* TNTSearchField.h in Headers */,
+				2AB7A50A1220A8430071F0F1 /* TNTSplashScreen.h in Headers */,
+				2A4DD9111222003B00EA665D /* TNTShadowedImageView.h in Headers */,
+				2A4DD9131222003B00EA665D /* TNTStyledView.h in Headers */,
+				2ADD0BAE1248143C00273E58 /* TNTThumbnailView.h in Headers */,
+				2A391ED712493CD50001BABF /* TNTIndexedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TNTFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TNTFramework" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNTFramework;
+			productName = TNTFramework;
+			productReference = D2AAC07E0554694100DB518D /* libTNTFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TNTFramework" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TNTFramework */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TNTFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A174257120C92D1007BD6EA /* TNTHttpImage.m in Sources */,
+				2A174269120C92DE007BD6EA /* TNTGridView.m in Sources */,
+				2A17426D120C92DE007BD6EA /* TNTNavBar.m in Sources */,
+				2A17426F120C92DE007BD6EA /* TNTPageController.m in Sources */,
+				2A174271120C92DE007BD6EA /* TNTSplitVBox.m in Sources */,
+				2A174273120C92DE007BD6EA /* TNTToolTip.m in Sources */,
+				2A174275120C92DE007BD6EA /* TNTVBox.m in Sources */,
+				2A174279120C92E8007BD6EA /* TNTFramework.m in Sources */,
+				2AFF77DD121DC9EE00E05077 /* TNTSmartImageView.m in Sources */,
+				2A6DF052121F2C51008774A8 /* TNTSearchField.m in Sources */,
+				2AB7A50B1220A8430071F0F1 /* TNTSplashScreen.m in Sources */,
+				2A4DD9121222003B00EA665D /* TNTShadowedImageView.m in Sources */,
+				2A4DD9141222003B00EA665D /* TNTStyledView.m in Sources */,
+				2ADD0BAF1248143C00273E58 /* TNTThumbnailView.m in Sources */,
+				2A391ED812493CD50001BABF /* TNTIndexedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TNTFramework.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TNTFramework_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TNTFramework;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/TNTFramework.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TNTFramework_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TNTFramework;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TNTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TNTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
